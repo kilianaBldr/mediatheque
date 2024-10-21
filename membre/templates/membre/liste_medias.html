@@ -13,7 +13,6 @@
                 <th>ID</th>
                 <th>Titre</th>
                 <th>Type</th>
-                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -22,14 +21,13 @@
                     <td>{{ media.id }}</td>
                     <td>{{ media.titre }}</td>
                     <td>{{ media.type }}</td>
-                    <td>
-                        <a href="{% url 'ajouter_media' %}">Modifier</a>
-                    </td>
                 </tr>
+            {% empty %}
+            <tr>
+              <td>Aucun Média disponible.</td>
+            </tr>
             {% endfor %}
         </tbody>
     </table>
-    <a href="{% url 'ajouter_media' %}">Ajouter un nouveau média</a>
-
 </body>
 </html>
