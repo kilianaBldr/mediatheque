@@ -1,30 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fd66c4-0f09-46a0-b1e6-03c958b59530" name="Changes" comment="" />
+    <list default="true" id="28fd66c4-0f09-46a0-b1e6-03c958b59530" name="Changes" comment="Ajout du models et de la views de l'app bibliothecaire">
+      <change afterPath="$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/liste_membres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/templates/liste_medias.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediatheque/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediatheque/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kilianaBldr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kilianaBldr/mediatheque.git&quot;,
+    &quot;accountId&quot;: &quot;73dca417-d0de-4703-8dba-d4d00a82c27e&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/models.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/accueil.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/ajouter_emprunt.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/ajouter_media.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/ajouter_membre.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/base.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/liste_emprunts.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/liste_medias.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/liste_membres.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/views.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mediatheque/urls.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2nk1V99bsGjwe55XcZPsORq7O8G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;bibliothecaire&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kilia\PycharmProjects\Mediatheque_projet\bibliothecaire\templates\bibliothecaire" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +95,19 @@
       <option name="presentableId" value="Default" />
       <updated>1729502281254</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ajout du models et de la views de l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729506334385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729506334385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout du models et de la views de l'app bibliothecaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du models et de la views de l'app bibliothecaire" />
   </component>
 </project>

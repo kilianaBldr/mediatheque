@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liste des Membres</title>
+</head>
+<body>
+    <h2>Liste des Membres</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nom</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for membre in membres %}
+                <tr>
+                    <td>{{ membre.id }}</td>
+                    <td>{{ membre.nom }}</td>
+                    <td>{{ membre.email }}</td>
+                    <td>
+                        <a href="{% url 'ajouter_membre' %}">Modifier</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'ajouter_membre' %}">Ajouter un nouveau membre</a>
+</body>
+</html>
