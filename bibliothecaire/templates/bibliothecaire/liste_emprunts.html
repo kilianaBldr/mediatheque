@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liste des Emprunts</title>
+</head>
+<body>
+    <h2>Liste des Emprunts</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Membre</th>
+                <th>Média</th>
+                <th>Date d'Emprunt</th>
+                <th>Date de Retour</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for emprunt in emprunts %}
+                <tr>
+                    <td>{{ emprunt.id }}</td>
+                    <td>{{ emprunt.membre.nom }}</td>
+                    <td>{{ emprunt.media.titre }}</td>
+                    <td>{{ emprunt.date_emprunt }}</td>
+                    <td>{{ emprunt.date_retour }}</td>
+                    <td>
+                        <a href="{% url 'rendre_emprunt' emprunt.id %}">Rendre</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'ajouter_emprunt' %}">Ajouter un nouvel emprunt</a>
+
+</body>
+</html>
